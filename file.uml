@@ -1,0 +1,39 @@
++MeineKlasse
++test:Taschenrechner
+-_statischesAttribute:int
+#protectedAttribute:float
++publicAtt1:EineTestKlasse1[*]
++publicAtt2:EineTestKlasse2[*]
++publicAtt3:EineTestKlasse3[*]
+
+
++new MeineKlasse()
+-new MeineKlasse(att1:int, att2:float, att3:String[*])
++new MeineKlasse(att1:HashMap<String, Object>)
+
++_methode1():void
++methode2(att1:HashMap<String,Object>[*],att2:String[*][*]):HashMap<String,Object>[*][*]
++methode()
+
+
++EinTest2:Klasse2
+#einTest3:Klasse1
+ +setTest(test:Taschenrechner)
++getTest():Taschenrechner
++_setStatischesAttribute(statischesAttribute:int)
++_getStatischesAttribute():int
++setProtectedAttribute(protectedAttribute:float)
++getProtectedAttribute():float
++setPublicAtt1(publicAtt1:EineTestKlasse1[*])
++getPublicAtt1():EineTestKlasse1[*]
++setPublicAtt2(publicAtt2:EineTestKlasse2[*])
++getPublicAtt2():EineTestKlasse2[*]
++setPublicAtt3(publicAtt3:EineTestKlasse3[*])
++getPublicAtt3():EineTestKlasse3[*]
++setEinTest2(EinTest2:Klasse2)
++getEinTest2():Klasse2
++setEinTest3(einTest3:Klasse1)
++getEinTest3():Klasse1
++toString():String
++equals(object:Object):boolean
++hashCode():int
